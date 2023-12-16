@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li {
+    border-bottom: 1px solid #000000;
+    padding: 10px 0;
+}
+li:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+}
