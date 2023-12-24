@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/styles/**/*.{css}",
   ],
   theme: {
     colors: {
@@ -10,10 +11,9 @@ export default {
       'golden': '#F2CA42',
       'white': '#fff',
       'black': '#000000',
-      'slate-50': '#F8FAFC',
+      'slate-50': '#FBFBFB',
     },
     extend: {},
   },
-  // eslint-disable-next-line no-undef
-  plugins:  [require('flowbite/plugin')],
+  plugins: [],
 }

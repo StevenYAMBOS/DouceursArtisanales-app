@@ -50,7 +50,7 @@ const Navbar = () => {
                 </a>
               </li >
               <li className="md:border-none lg:border-none">
-                <a href="#" className="py-2 px-3 md:p-0 text-black">
+                <a href="/" className="py-2 px-3 md:p-0 text-black">
                   Où sont mes desserts ?
                 </a>
               </li>
@@ -60,7 +60,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="md:border-none lg:border-none mb-4 md:mb-0 lg:mb-0">
-                <a href="#" className="py-2 mr-4 px-3 md:p-0 text-black">
+                <a href="/contact" className="py-2 mr-4 px-3 md:p-0 text-black">
                   Contact
                 </a>
               </li>
